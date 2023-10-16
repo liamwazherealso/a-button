@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.hover-button {
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: #55efc4;  /* Soft teal color */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.hover-button:hover {
+    background-color: #33d9b2;  /* Darker shade of teal on hover */
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* When the button is active (being clicked) */
+.hover-button:active {
+    transform: translateY(1px);
+}
